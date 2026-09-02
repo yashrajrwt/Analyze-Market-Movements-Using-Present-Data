@@ -1,1 +1,1 @@
-# Stock_Market_and_Infomaton_System
+# Stock_Market_and_Infomaiton_System
