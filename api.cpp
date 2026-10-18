@@ -18,7 +18,7 @@ size_t WriteCallback(void *contents, size_t size, size_t nmemb, string *output)
 void API::getNews(string symbol)
 {
     // Replace with your own API key
-    string apiKey = "YOUR_API_KEY_HERE";
+    string apiKey = "daeifj1r01ql3jfanvagdaeifj1r01ql3jfanvb0";
 
     string url =
         "https://finnhub.io/api/v1/company-news?symbol=" +
@@ -91,7 +91,7 @@ void API::getNews(string symbol)
 }
 void API::getPrice(string symbol)
 {
-    string apiKey = "YOUR_API_KEY_HERE";
+    string apiKey = "daeifj1r01ql3jfanvagdaeifj1r01ql3jfanvb0";
 
     string url =
         "https://finnhub.io/api/v1/quote?symbol=" +
@@ -147,7 +147,7 @@ void API::getPrice(string symbol)
 }
 void API::getCompanyProfile(string symbol)
 {
-    string apiKey = "YOUR_API_KEY_HERE";
+    string apiKey = "daeifj1r01ql3jfanvagdaeifj1r01ql3jfanvb0";
 
     string url =
         "https://finnhub.io/api/v1/stock/profile2?symbol=" +
