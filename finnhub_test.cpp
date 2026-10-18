@@ -18,7 +18,7 @@ int main()
     cin >> symbol;
 
     // Replace with your own API key
-    string apiKey = "YOUR_API_KEY_HERE";
+    string apiKey = "daeifj1r01ql3jfanvagdaeifj1r01ql3jfanvb0";
 
     string url =
         "https://finnhub.io/api/v1/company-news?symbol=" +
