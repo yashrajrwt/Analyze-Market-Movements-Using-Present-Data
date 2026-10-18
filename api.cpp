@@ -8,7 +8,6 @@
 using namespace std;
 using json = nlohmann::json;
 
-// Callback function
 size_t WriteCallback(void *contents, size_t size, size_t nmemb, string *output)
 {
     output->append((char*)contents, size * nmemb);
@@ -17,7 +16,6 @@ size_t WriteCallback(void *contents, size_t size, size_t nmemb, string *output)
 
 void API::getNews(string symbol)
 {
-    // Replace with your own API key
     string apiKey = "daeifj1r01ql3jfanvagdaeifj1r01ql3jfanvb0";
 
     string url =
