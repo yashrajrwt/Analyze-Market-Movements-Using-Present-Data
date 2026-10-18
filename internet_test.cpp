@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// This function stores the downloaded data
 size_t WriteCallback(void *contents, size_t size, size_t nmemb, string *output)
 {
     output->append((char*)contents, size * nmemb);
