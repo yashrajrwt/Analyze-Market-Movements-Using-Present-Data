@@ -9,7 +9,6 @@ public:
     void line();
     void loading();
 
-    // Color Functions
     void green();
     void red();
     void blue();
