@@ -10,7 +10,7 @@ class API
 public:
     void getNews(string symbol);
     void getPrice(string symbol);
-    void getCompanyProfile(string symbol);   // NEW
+    void getCompanyProfile(string symbol);   
 };
 
 #endif
