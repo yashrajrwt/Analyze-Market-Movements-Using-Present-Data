@@ -17,11 +17,8 @@ void UI::title()
 
     line();
 
-    cout << "\tSTOCK MARKET INFORMATION SYSTEM\n";
+    cout << "\tAnalyze Market Movements Using Present Data\n";
 
-    yellow();
-
-    cout << "\tDeveloped by Yash Sharma\n";
 
     cyan();
 
